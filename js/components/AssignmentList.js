@@ -1,10 +1,11 @@
 import Assignment from "./Assignment.js";
 import AssignmentTags from "./AssignmentTags.js";
-import Panel from "./Panel.js";
+import Panel from "./Panel.js"; 
 
 export default {
     components: { Assignment, AssignmentTags, Panel },
 
+    
     template: `
         <Panel v-show="assignments.length" class="w-60">
             <div class="flex justify-between items-start">
